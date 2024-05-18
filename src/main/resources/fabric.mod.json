@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "banned-mineshaft",
+	"version": "${version}",
+	"name": "BannedMineshaft",
+	"description": "Truly \"abandoned\" mineshafts",
+	"authors": [
+		"ccyfslba1"
+	],
+	"contact": {
+		"website": "https://github.com/ccyfslba1"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/BannedMineshaft/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.BannedMineshaft.BannedMineshaft"
+		]
+	},
+	"mixins": [
+		"BannedMineshaft.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.16.1",
+		"java": ">=8"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
