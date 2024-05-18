@@ -1,1 +1,1 @@
-Turn off file generation
+Turn off mineshaft generation
