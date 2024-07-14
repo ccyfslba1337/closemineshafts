@@ -1,1 +1,1 @@
-Turn off mineshaft generation
+prevent mineshaft generating in overworld
